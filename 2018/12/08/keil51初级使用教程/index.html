@@ -79,13 +79,13 @@
 
 
 
-<meta name="description" content="前言  学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说，  刚接触这个软件根本无从下手，不知如何使用。今天我就为大  家带来k51使用教程。（PS；下载安装教程大家可以在微信公  众号–软件安装管家获取，里面的文章对小白也很友好）">
+<meta name="description" content="前言学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说， 刚接触这个软件根本无从下手，不知如何使用。今天我就为大家带来k51使用教程。（PS；下载安装教程大家可以在微信公众号–软件安装管家获取，里面的文章对小白也很友好）。">
 <meta name="keywords" content="教程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="keil51初级使用教程">
 <meta property="og:url" content="http://yoursite.com/2018/12/08/keil51初级使用教程/index.html">
 <meta property="og:site_name" content="橘子哥">
-<meta property="og:description" content="前言  学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说，  刚接触这个软件根本无从下手，不知如何使用。今天我就为大  家带来k51使用教程。（PS；下载安装教程大家可以在微信公  众号–软件安装管家获取，里面的文章对小白也很友好）">
+<meta property="og:description" content="前言学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说， 刚接触这个软件根本无从下手，不知如何使用。今天我就为大家带来k51使用教程。（PS；下载安装教程大家可以在微信公众号–软件安装管家获取，里面的文章对小白也很友好）。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://wx2.sinaimg.cn/mw690/006c4HLlgy1fxzn7j4f3gj31gp0r3abm.jpg">
 <meta property="og:image" content="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn7j6fjjj31490emtbj.jpg">
@@ -102,10 +102,10 @@
 <meta property="og:image" content="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8j50esj31hc0sc775.jpg">
 <meta property="og:image" content="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8j6qcuj311x0eejt3.jpg">
 <meta property="og:image" content="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8iyvnfj31hc05mgme.jpg">
-<meta property="og:updated_time" content="2018-12-08T14:12:18.658Z">
+<meta property="og:updated_time" content="2019-01-25T05:35:08.740Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="keil51初级使用教程">
-<meta name="twitter:description" content="前言  学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说，  刚接触这个软件根本无从下手，不知如何使用。今天我就为大  家带来k51使用教程。（PS；下载安装教程大家可以在微信公  众号–软件安装管家获取，里面的文章对小白也很友好）">
+<meta name="twitter:description" content="前言学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说， 刚接触这个软件根本无从下手，不知如何使用。今天我就为大家带来k51使用教程。（PS；下载安装教程大家可以在微信公众号–软件安装管家获取，里面的文章对小白也很友好）。">
 <meta name="twitter:image" content="https://wx2.sinaimg.cn/mw690/006c4HLlgy1fxzn7j4f3gj31gp0r3abm.jpg">
 
 
@@ -316,41 +316,12 @@
       
 
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说，<br>  刚接触这个软件根本无从下手，不知如何使用。今天我就为大<br>  家带来k51使用教程。（PS；下载安装教程大家可以在微信公<br>  众号–软件安装管家获取，里面的文章对小白也很友好）<br><a id="more"></a></p>
-<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>  打开软件</p>
-<p>  <img src="https://wx2.sinaimg.cn/mw690/006c4HLlgy1fxzn7j4f3gj31gp0r3abm.jpg" alt=""></p>
-<p>   界面可能有点不同，我这用的是k2版本，版本有点低。</p>
-<hr>
-<p>  新建工程</p>
-<p>  <img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn7j6fjjj31490emtbj.jpg" alt=""></p>
-<p>  自行填完安装路径，工程名</p>
-<p>  <img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn7j847zj30l80ey76m.jpg" alt=""></p>
-<h1 id="添加单片机型号"><a href="#添加单片机型号" class="headerlink" title="添加单片机型号"></a>添加单片机型号</h1><p>   新建工程结束后，会弹出选择单片机型号界面</p>
-<p>  <img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn7ja217j30u30n3ad1.jpg" alt=""></p>
-<p>  我用的是atmel公司的型号</p>
-<p>  <img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn7jfoihj30u40o7tc8.jpg" alt=""></p>
-<p>  使用89c52芯片</p>
-<p>  保存结束后跳出如下界面，<strong>选择否</strong>。</p>
-<p>  <img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8biw4zj319f0gx755.jpg" alt=""></p>
-<h1 id="关联c文件"><a href="#关联c文件" class="headerlink" title="关联c文件"></a>关联c文件</h1><p>  工程建完后，还有c文件需要关联</p>
-<p>  <img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8biodqj311g03zmxx.jpg" alt=""></p>
-<p>  新建文件，点击保存</p>
-<p>  <img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8bmpmcj31eb0gzq4f.jpg" alt=""></p>
-<p>  将保存的文件改成c后缀</p>
-<p> <img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn8j1dubj319f0gx40r.jpg" alt=""></p>
-<p> 按下图操作</p>
-<p> <img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8bp53xj31g60i5dgo.jpg" alt=""></p>
-<p> 将文件与工程关联</p>
-<p> <img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn8bw1d1j31f80h4diq.jpg" alt=""></p>
-<p>  点击add</p>
-<p> <img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8iu998j30l70f5abd.jpg" alt=""></p>
-<p>  点击刚才添加的c文件就可以写程序</p>
-<p>  <img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8j50esj31hc0sc775.jpg" alt=""></p>
-<h1 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h1><p>  将程序写完后，按编译键编译</p>
-<p>  <img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8j6qcuj311x0eejt3.jpg" alt=""></p>
-<p>  出现下图视图说明程序没问题</p>
-<p>  <img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8iyvnfj31hc05mgme.jpg" alt=""></p>
-<h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>   又学会一个新技能，是不是很高兴？</p>
+        <div class="output_wrapper" id="output_wrapper_id" style="font-size: 16px; color: rgb(62, 62, 62); line-height: 1.6; word-spacing: 0px; letter-spacing: 0px; font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;"><h1 id="h" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px; font-weight: bold; font-size: 1.6em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">前言</span></h1><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">学习单片机的小伙伴都会用到k51，但对于刚入门的小白来说， 刚接触这个软件根本无从下手，不知如何使用。今天我就为大家带来k51使用教程。（PS；下载安装教程大家可以在微信公众号–软件安装管家获取，里面的文章对小白也很友好）。</p><br><a id="more"></a><br><h1 id="h-1" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px; font-weight: bold; font-size: 1.6em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">开始</span></h1><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">打开软件<br> </p><figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx2.sinaimg.cn/mw690/006c4HLlgy1fxzn7j4f3gj31gp0r3abm.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>界面可能有点不同，我这用的是k2版本，版本有点低。<p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;"></p><br><hr style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; height: 1px; margin: 1.5rem 0px; border-right: none; border-bottom: none; border-left: none; border-image: initial; border-top: 1px dashed rgb(165, 165, 165);"><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">新建工程<br>  </p><figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn7j6fjjj31490emtbj.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>自行填完安装路径，工程名<br>  <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn7j847zj30l80ey76m.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br><h1 id="h-2" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px; font-weight: bold; font-size: 1.6em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">添加单片机型号</span></h1><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">新建工程结束后，会弹出选择单片机型号界面<br>  </p><figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn7ja217j30u30n3ad1.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>我用的是atmel公司的型号<br>  <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn7jfoihj30u40o7tc8.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>使用89c52芯片<br>保存结束后跳出如下界面，<strong style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px; font-weight: bold;">选择否</strong>。<br>  <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8biw4zj319f0gx755.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br><h1 id="hc" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px; font-weight: bold; font-size: 1.6em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">关联c文件</span></h1><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">工程建完后，还有c文件需要关联<br>  </p><figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8biodqj311g03zmxx.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>新建文件，点击保存<br>  <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8bmpmcj31eb0gzq4f.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>将保存的文件改成c后缀<br> <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn8j1dubj319f0gx40r.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>按下图操作<br> <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8bp53xj31g60i5dgo.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>将文件与工程关联<br> <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx3.sinaimg.cn/mw690/006c4HLlgy1fxzn8bw1d1j31f80h4diq.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>点击add<br> <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8iu998j30l70f5abd.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br> 点击刚才添加的c文件就可以写程序<br>  <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8j50esj31hc0sc775.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br><h1 id="h-3" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px; font-weight: bold; font-size: 1.6em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">编译</span></h1><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">将程序写完后，按编译键编译<br>  </p><figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx1.sinaimg.cn/mw690/006c4HLlgy1fxzn8j6qcuj311x0eejt3.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br>出现下图视图说明程序没问题<br> <figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://wx4.sinaimg.cn/mw690/006c4HLlgy1fxzn8iyvnfj31hc05mgme.jpg" alt="" title="" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;"></figcaption></figure><br><h1 id="h-4" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px; font-weight: bold; font-size: 1.6em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">结束</span></h1><br><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.5em 0px;">keil基础教程到此结束。</p></div> 
+
+
+
+
+
 
       
     </div>
@@ -391,8 +362,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/12/15/感想/" rel="prev" title="感想">
-                感想 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/12/15/感想/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -516,7 +487,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#开始"><span class="nav-number">2.</span> <span class="nav-text">开始</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#添加单片机型号"><span class="nav-number">3.</span> <span class="nav-text">添加单片机型号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关联c文件"><span class="nav-number">4.</span> <span class="nav-text">关联c文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#编译"><span class="nav-number">5.</span> <span class="nav-text">编译</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#结束"><span class="nav-number">6.</span> <span class="nav-text">结束</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#h"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#h-1"><span class="nav-number">2.</span> <span class="nav-text">开始</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#h-2"><span class="nav-number">3.</span> <span class="nav-text">添加单片机型号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hc"><span class="nav-number">4.</span> <span class="nav-text">关联c文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#h-3"><span class="nav-number">5.</span> <span class="nav-text">编译</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#h-4"><span class="nav-number">6.</span> <span class="nav-text">结束</span></a></li></ol></div>
             
 
           </div>
